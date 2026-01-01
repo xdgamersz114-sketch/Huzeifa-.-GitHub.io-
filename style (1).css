@@ -1,0 +1,228 @@
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+}
+
+.title{
+    text-align:center;
+    margin:20px 0;
+}
+
+/* GRID SYSTEM */
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 products per row */
+    gap: 20px;
+    padding: 30px;
+}
+
+/* Product Card */
+.product{
+    background:white;
+    padding:15px;
+    text-align:center;
+    border-radius:8px;
+    box-shadow:0 0 10px gray;
+}
+
+.product img{
+    width:120px;
+    height:120px;
+}
+
+.product button{
+    background:orange;
+    border:none;
+    padding:8px;
+    cursor:pointer;
+}
+
+
+
+
+/* Login Page Background */
+.login-body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+/* Login Box */
+.login-box {
+    background: white;
+    padding: 35px;
+    width: 320px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.login-icon {
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #219150;
+}
+
+#msg {
+    margin-top: 10px;
+    color: red;
+}
+
+
+
+/* Welcome Page Background */
+.welcome-body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),
+    url("https://formosainternational.com/wp-content/uploads/2022/04/AdobeStock_364410753.jpeg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Welcome Box */
+.welcome-box {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Logo Image */
+.welcome-box img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+/* Heading */
+.welcome-box h1 {
+    margin: 10px 0;
+    color: #2c3e50;
+}
+
+/* Text */
+.welcome-box p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Button */
+.btn {
+    text-decoration: none;
+    background: #28a745;	/*GREEN*/
+    color: white;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+	display: inline-block;
+}
+
+.btn:hover {
+    background: #218838;	/*DARK GREEN*/
+}
+
+.btn {
+  background-color: #28a745 !important;
+  color: white !important;
+  padding: 12px 25px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #111;
+    color: gold;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.search-box input {
+    padding: 8px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+}
+
+.nav-buttons {
+    margin-left: auto;
+}
+
+.btn {
+    background-color: gold;
+    color: black;
+    padding: 8px 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
